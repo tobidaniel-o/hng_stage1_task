@@ -1,12 +1,12 @@
 import React from "react";
 import "./Profiles.css";
 
-const Profiles = ({ profileName, url }) => {
-    return (
+const Profiles = ({ profileName, url, id }) => {
+	return (
 		<React.Fragment>
-			<a href={url} className="profile-wrapper">
+			<a href={url} className="profile-wrapper" id={id}>
 				<div>{profileName}</div>
-            </a>
+			</a>
 		</React.Fragment>
 	);
 };

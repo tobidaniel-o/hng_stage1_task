@@ -1,4 +1,5 @@
 .footer {
+    margin-top: 4rem;
 	padding: 1rem 0;
 	border-top: 1px solid #eaecf0;
 	display: flex;
@@ -16,4 +17,16 @@
 .footer-icon img {
 	width: 100%;
 	height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer p {
+    margin-bottom: 20px;
+  }
 }

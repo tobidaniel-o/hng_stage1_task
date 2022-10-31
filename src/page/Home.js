@@ -21,23 +21,51 @@ const Home = () => {
 				</div>
 			</header>
 			<main>
-				<Profiles profileName="Twitter" />
-				<Profiles profileName="Zuri Team" />
-				<Profiles profileName="Zuri Books" />
-				<Profiles profileName="Python Books" />
-				<Profiles profileName="Background Check for Coders" />
-				<Profiles profileName="Design Books" />
+				<Profiles
+					profileName="Twitter"
+					id="twitter"
+					url="https://twitter.com/digital_prnt"
+				/>
+				<Profiles
+					profileName="Zuri Team"
+					id="btn-zuri"
+					url="https://training.zuri.team"
+				/>
+				<Profiles
+					profileName="Zuri Books"
+					id="books"
+					url="http://books.zuri.team"
+				/>
+				<Profiles
+					profileName="Python Books"
+					id="books_python"
+					url="https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>"
+				/>
+				<Profiles
+					profileName="Background Check for Coders"
+					id="pitch"
+					url="https://background.zuri.team"
+				/>
+				<Profiles
+					profileName="Design Books"
+					id="book_design"
+					url="https://books.zuri.team/design-rules"
+				/>
 				<div className="social-icons">
 					<a href="" className="icon">
+						<div style={{ display: "none" }}>Username: Toby</div>
 						<Slack />
 					</a>
 
-					<a href="" className="icon">
+					<a
+						href="https://github.com/tobidaniel-o/hng_stage1_task"
+						className="icon"
+					>
 						<Github />
 					</a>
 				</div>
-            </main>
-            <Footer />
+			</main>
+			<Footer />
 		</React.Fragment>
 	);
 };
