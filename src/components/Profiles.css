@@ -1,4 +1,5 @@
 .profile-wrapper {
+	text-decoration: none;
 	text-align: center;
 	width: 100%;
 	padding: 2rem;
@@ -6,5 +7,11 @@
 	color: black;
 	font-weight: 700;
 	border-radius: 5px;
-    margin: 0 2rem 15px 0;
+	margin: 0 2rem 15px 0;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.profile-wrapper:hover {
+	background: #d0d5dd;
 }

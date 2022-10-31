@@ -1,0 +1,19 @@
+.footer {
+	padding: 1rem 0;
+	border-top: 1px solid #eaecf0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.footer-icon {
+	width: 90px;
+	height: auto;
+}
+
+.footer-icon img {
+	width: 100%;
+	height: auto;
+}

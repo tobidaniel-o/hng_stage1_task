@@ -23,3 +23,13 @@ header {
 	display: block;
     font-weight: 700;
 }
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon {
+	padding: 1rem;
+}
