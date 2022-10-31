@@ -1,0 +1,10 @@
+.profile-wrapper {
+	text-align: center;
+	width: 100%;
+	padding: 2rem;
+	background: #eeeeee;
+	color: black;
+	font-weight: 700;
+	border-radius: 5px;
+    margin: 0 2rem 15px 0;
+}

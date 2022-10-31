@@ -1,0 +1,25 @@
+header {
+	padding: 2rem 0;
+	text-align: center;
+}
+
+.profile-container {
+	display: inline-block;
+}
+
+.profile-pix {
+	height: 80px;
+	width: 100px;
+    margin-bottom: 10px;
+}
+
+.img {
+	border-radius: 50%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.name {
+	display: block;
+    font-weight: 700;
+}
